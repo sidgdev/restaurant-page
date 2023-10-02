@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Montserrat&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+button {
+    border: none;
+    appearance: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(73deg, rgba(255,255,255,1) 0%, rgba(255,189,129,1) 100%);
+}
+
+nav {
+    display: flex;
+    padding: 60px 100px;
+    column-gap: 100px;
+    align-items: center;
+}
+
+nav a {
+    padding-bottom: 6px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+nav a:hover {
+    border-bottom: 3px solid black;
+} 
+
+.home-content {
+    display: flex;
+    align-items: center;
+    column-gap: 90px;
+    flex-basis: auto;
+    padding: 0px 100px;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.home-text span {
+    font-size: 5.6rem;
+    font-weight: bold;
+}
+
+.text-orange {
+    color: #FF9A3D;
+}
+
+.order-btn button{
+    padding: 8px 30px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    border: 5px solid #FF9A3D;
+    background: #FFF;
+    
+}
+
+.home-img img {
+    width: 75%;
+    height: auto;
+}
+
+.reachus-content {
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.reachus-content div {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.reachus-content p {
+    font-size: 2.6rem;
+}
+
+.reachus-content img {
+    width: 50px;
+    height: auto;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+    padding-bottom: 80px;
+}
+
+.menu-title {
+    font-size: 4.2rem;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 40px;
+    border: 5px solid #FF9A3D;
+    border-radius: 4rem;
+    width:auto;
+}
+
+.food-item p {
+    font-size: 3.4rem;
+}
+
+.food-item img {
+    width: 480px;
+    height: auto;
+    border-radius: 2rem;
+}

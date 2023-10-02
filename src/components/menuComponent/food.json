@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Pizza",
+      "path": "./asset/pizza.jpg"
+    },
+    {
+      "name": "Calzone",
+      "path": "./asset/calzone.jpg"
+    },
+    {
+      "name": "Lasagna",
+      "path": "./asset/lasagna.jpg"
+    },
+    {
+      "name": "Chicken Parmesan",
+      "path": "./asset/chicken-parmesan.jpg"
+    },
+    {
+      "name": "Pasta",
+      "path": "./asset/pasta.jpg"
+    }
+]
